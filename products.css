@@ -1,0 +1,85 @@
+@import url("https://fonts.googleapis.com/css2?family=Questrial&display=swap");
+body {
+  background-image: url(../img/form1.jpg);
+  background-color: #e6e4ec;
+  background-position: center;
+  background-size: cover;
+  background-repeat: no-repeat;
+}
+
+.box {
+  margin-top: 20px;
+  margin-left: 8%;
+  margin-right: 8%;
+  margin-bottom: 90px;
+  background-color: white;
+  height: 90vh;
+  position: relative;
+  box-shadow: 12px 12px 2px 1px rgba(24, 24, 34, 0.1);
+  font-family: "Questrial", sans-serif;
+}
+.package {
+  background-color: pink;
+  height: 100%;
+  width: 35%;
+  float: left;
+}
+
+.product {
+  background-color: white;
+  height: 100%;
+  background-image: url(../img/prod1.jpg);
+  background-position: center;
+  background-size: cover;
+  background-repeat: no-repeat;
+}
+
+.title {
+  position: absolute;
+  top: 35%;
+  left: 20%;
+  font-size: 60px;
+}
+
+.buynow {
+  bottom: 0px;
+  right: 0px;
+  background-color: black;
+  color: white;
+  position: absolute;
+  padding: 20px;
+  font-size: 22px;
+  font-family: "Questrial", sans-serif;
+}
+
+/* grid 2*/
+
+.product2 {
+  background-color: white;
+  height: 100%;
+  background-image: url(../img/prod2.2.jpg);
+}
+.package2 {
+  background-color: #a6e1f5;
+  height: 100%;
+  width: 35%;
+  float: left;
+}
+
+/* grid 3 */
+
+.product3 {
+  background-color: white;
+  height: 100%;
+  background-image: url(../img/prod3.jpg);
+  background-position: left;
+  background-size: cover;
+  background-repeat: no-repeat;
+  padding-left: 300px;
+}
+.package3 {
+  background-color: #ebcbf3;
+  height: 100%;
+  width: 35%;
+  float: left;
+}

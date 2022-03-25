@@ -1,0 +1,478 @@
+@import url("https://fonts.googleapis.com/css2?family=Quicksand:wght@300&display=swap");
+@import url("https://fonts.googleapis.com/css2?family=Exo+2:wght@300&display=swap");
+
+@import url("https://fonts.googleapis.com/css2?family=The+Nautigal:wght@700&display=swap");
+@import url("https://fonts.googleapis.com/css2?family=Montserrat:wght@200&display=swap");
+
+@import url("https://fonts.googleapis.com/css2?family=Libre+Baskerville&display=swap");
+* {
+  margin: 0px;
+  padding: 0px;
+  font-family: "Exo 2", sans-serif;
+}
+
+.hero {
+  background-image: radial-gradient(
+      rgba(145, 146, 122, 0.62),
+      rgba(217, 91, 132, 0.58)
+    ),
+    url(../img/hero.jpeg);
+  background-position: center;
+  background-size: cover;
+  background-repeat: no-repeat;
+  /*height: 100vh;*/
+  position: relative;
+}
+.circle1 {
+  position: absolute;
+  top: 80px;
+  left: -150px;
+  width: 200px;
+  height: 100px;
+  background-color: white;
+  border-radius: 50px;
+  animation-name: c1;
+  animation-duration: 4s;
+  animation-iteration-count: infinite;
+}
+@keyframes c1 {
+  0% {
+    background-color: white;
+    left: -150px;
+    top: 80px;
+  }
+  25% {
+    background-color: white;
+    left: -150px;
+    top: 100px;
+  }
+}
+
+.circle2 {
+  position: absolute;
+  top: -100px;
+  left: 600px;
+  width: 200px;
+  height: 200px;
+  background-color: white;
+  border-radius: 100px;
+  animation-name: c2;
+  animation-duration: 4s;
+  animation-iteration-count: infinite;
+}
+
+@keyframes c2 {
+  0% {
+    background-color: white;
+    left: 600px;
+    top: -100px;
+  }
+  25% {
+    background-color: white;
+    left: 580px;
+    top: -100px;
+  }
+}
+
+.circle3 {
+  position: absolute;
+  top: 500px;
+  left: 800px;
+  width: 150px;
+  height: 150px;
+  background-color: white;
+  border-radius: 75px;
+  animation-name: c3;
+  animation-duration: 4s;
+  animation-iteration-count: infinite;
+}
+@keyframes c3 {
+  0% {
+    background-color: white;
+    left: 800px;
+    top: 500px;
+  }
+  25% {
+    background-color: white;
+    left: 800px;
+    top: 520px;
+  }
+}
+
+.circle4 {
+  position: absolute;
+  top: 300px;
+  right: 0px;
+  width: 150px;
+  height: 150px;
+  background-color: white;
+  border-radius: 75px;
+  animation-name: c4;
+  animation-duration: 4s;
+  animation-iteration-count: infinite;
+}
+@keyframes c4 {
+  0% {
+    background-color: white;
+    right: 0px;
+    top: 300px;
+  }
+  25% {
+    background-color: white;
+    right: 0px;
+    top: 280px;
+  }
+}
+
+.circle5 {
+  position: absolute;
+  top: 600px;
+  left: 200px;
+  width: 70px;
+  height: 70px;
+  background-color: white;
+  border-radius: 35px;
+  animation-name: c5;
+  animation-duration: 4s;
+  animation-iteration-count: infinite;
+}
+@keyframes c5 {
+  0% {
+    background-color: white;
+    left: 200px;
+    top: 600px;
+  }
+  25% {
+    background-color: white;
+    left: 180px;
+    top: 600px;
+  }
+}
+
+.circle6 {
+  position: absolute;
+  top: 350px;
+  right: 560px;
+  width: 50px;
+  height: 50px;
+  background-color: white;
+  border-radius: 25px;
+  animation-name: c6;
+  animation-duration: 4s;
+  animation-iteration-count: infinite;
+}
+@keyframes c6 {
+  0% {
+    background-color: white;
+    right: 560px;
+    top: 350px;
+  }
+  25% {
+    background-color: white;
+    right: 580px;
+    top: 350px;
+  }
+}
+
+/*features */
+.feature-container {
+  height: 100vh;
+  width: 100vw;
+  background-color: #be8798;
+  position: relative;
+}
+.fc1 {
+  position: absolute;
+  background-color: #88687d;
+  box-shadow: 0 0 15px 0 #88687d;
+  height: 400px;
+  width: 400px;
+  border-radius: 50%;
+  top: 20%;
+  left: 37%;
+}
+
+.pic1 {
+  position: absolute;
+  box-shadow: 0 0 15px 0 #887168;
+  height: 350px;
+  width: 250px;
+  top: 30%;
+  left: 47%;
+}
+
+.pic2 {
+  position: absolute;
+  box-shadow: 0 0 15px 0 #887168;
+  height: 350px;
+  width: 250px;
+  top: 11%;
+  left: 64%;
+}
+.pic3 {
+  position: absolute;
+  box-shadow: 0 0 15px 0 #887168;
+  height: 350px;
+  width: 250px;
+  top: 30%;
+  left: 81%;
+}
+.feature-heading {
+  position: absolute;
+  top: 18%;
+  left: 4%;
+  font-size: 60px;
+  font-family: "Libre Baskerville", serif;
+  color: white;
+}
+
+.feature-subheading {
+  position: absolute;
+  top: 47%;
+  left: 4%;
+  font-size: 20px;
+  font-family: "Libre Baskerville", serif;
+  color: white;
+}
+.feature-subheading2 {
+  position: absolute;
+  top: 55%;
+  left: 4%;
+  font-size: 17px;
+  font-family: "Libre Baskerville", serif;
+  color: white;
+}
+
+.feature-button {
+  position: absolute;
+  top: 67%;
+  left: 14%;
+  padding: 15px;
+  font-size: 17px;
+  font-family: "Libre Baskerville", serif;
+  color: white;
+  border: 2px solid white;
+  border-radius: 15%;
+}
+/* charachteristics */
+.char-container {
+  height: 100vh;
+  width: 100vw;
+  background-color: #88687d;
+  position: relative;
+}
+.char-circle {
+  position: absolute;
+  height: 300px;
+  width: 300px;
+  border-radius: 50%;
+  background-color: #be8798;
+  top: 20%;
+  left: 40%;
+}
+.char-rect {
+  position: absolute;
+  height: 428px;
+  width: 300px;
+  background-color: #be8798;
+  top: 40%;
+  left: 40%;
+}
+.char-img1 {
+  height: 400px;
+  width: 400px;
+  position: absolute;
+  top: 40%;
+  left: 46%;
+}
+.char-img2 {
+  position: absolute;
+  top: 16%;
+  left: 31%;
+}
+
+.char-icon1 {
+  position: absolute;
+  color: #be8798;
+  font-size: 100px;
+  top: 4%;
+  left: 10%;
+}
+.char-icon2 {
+  position: absolute;
+  color: #be8798;
+  font-size: 100px;
+  top: 60%;
+  left: 10%;
+}
+.char-icon3 {
+  position: absolute;
+  color: #be8798;
+  font-size: 100px;
+  top: 4%;
+  left: 80%;
+}
+.char-icon4 {
+  position: absolute;
+  color: #be8798;
+  font-size: 100px;
+  top: 60%;
+  left: 80%;
+}
+.char-text1 {
+  position: absolute;
+  color: rgb(231, 209, 209);
+  font-family: "Libre Baskerville", serif;
+  font-size: 20px;
+  top: 21%;
+  left: 3%;
+}
+.char-text2 {
+  position: absolute;
+  color: rgb(231, 209, 209);
+  font-family: "Libre Baskerville", serif;
+  font-size: 20px;
+  top: 78%;
+  left: 2%;
+}
+.char-text3 {
+  position: absolute;
+  color: rgb(231, 209, 209);
+  font-family: "Libre Baskerville", serif;
+  font-size: 20px;
+  top: 21%;
+  left: 70%;
+}
+.char-text4 {
+  position: absolute;
+  color: rgb(231, 209, 209);
+  font-family: "Libre Baskerville", serif;
+  font-size: 20px;
+  top: 78%;
+  left: 70%;
+}
+/*socials*/
+.socials {
+  position: relative;
+  height: 100vh;
+  width: 100vw;
+  background: #be8798;
+}
+.socials-img1 {
+  position: absolute;
+  background-image: url(../img/socials-2.jpg);
+  background-position: center;
+  background-size: cover;
+  background-repeat: no-repeat;
+  height: 400px;
+  width: 400px;
+  border-radius: 50%;
+  border: 20px solid #be8798;
+  top: 30%;
+  left: 56%;
+}
+.soicals-vid-container {
+  position: absolute;
+  width: 350px;
+  height: 350px;
+  border-radius: 20%;
+  top: 5%;
+  left: 75%;
+}
+
+.socials-halfhalf {
+  position: absolute;
+  height: 100vh;
+  width: 50vw;
+  background: #88687d;
+  top: 0;
+  left: 0;
+}
+
+.socials-heading1 {
+  position: absolute;
+  top: 18%;
+  left: 4%;
+  font-size: 45px;
+  font-family: "Libre Baskerville", serif;
+  color: white;
+}
+.social-icon1 {
+  position: absolute;
+  color: white;
+  top: 70%;
+  left: 10%;
+  font-size: 37px;
+  border: 1px solid white;
+  border-radius: 50%;
+  padding: 40px;
+}
+.social-icon2 {
+  position: absolute;
+  color: white;
+  top: 70%;
+  left: 20%;
+  font-size: 37px;
+}
+.social-icon3 {
+  position: absolute;
+  color: white;
+  top: 70%;
+  left: 30%;
+  font-size: 37px;
+}
+.social-icon4 {
+  position: absolute;
+  color: white;
+  top: 70%;
+  left: 40%;
+  font-size: 37px;
+}
+/*.socials-vid1 {
+  width: 500px;
+  height: 500px;
+  position: absolute;
+  top: 10%;
+  left: 30%;
+}*/
+/* nav bar */
+
+.careless {
+  font-family: "The Nautigal", cursive;
+  font-size: 50px;
+  color: #3d2c46;
+  padding-bottom: 5px;
+  padding-right: 15px;
+  border-bottom: 3px solid white;
+  border-right: 3px solid white;
+}
+#underline {
+  position: relative;
+  font-family: "Montserrat", sans-serif;
+  color: white;
+  font-size: 18px;
+  font-weight: 300;
+}
+#admin {
+  position: relative;
+  font-family: "Montserrat", sans-serif;
+  color: rgb(102, 97, 97);
+  font-size: 18px;
+  font-weight: 300;
+}
+#underline::before {
+  content: "";
+  position: absolute;
+  bottom: 0;
+  left: 0;
+  width: 100%;
+  height: 2px;
+  background: linear-gradient(to right, #b47dcd, #e878a2, #eb85ab);
+  z-index: 1;
+  transform: scaleX(0);
+  transform-origin: left;
+  transition: transform 0.5s ease-in-out;
+}
+#underline:hover::before {
+  transform: scaleX(1);
+}
